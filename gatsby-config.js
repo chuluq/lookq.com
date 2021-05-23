@@ -4,6 +4,7 @@ module.exports = {
     description: "This is LookQ Portfolio Site",
     author: "Chuluq",
     twitterUsername: "@choirulchuluq",
+    siteUrl: "https://lookq.netlify.app/",
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -24,6 +25,14 @@ module.exports = {
         queryLimit: 1000, // Defaults to 100
         singleTypes: [`about`],
         collectionTypes: [`jobs`, `projects`, `blogs`],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+        google: {
+          families: [`Roboto:400,700`, `Open Sans`],
+        },
       },
     },
   ],

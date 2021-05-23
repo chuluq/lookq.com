@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 import Hero from "../components/Hero"
 import Services from "../components/Services"
 import Jobs from "../components/Jobs"
@@ -17,7 +17,7 @@ const HomePage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="Home" description="homepage" />
+      <Seo title="Home" description="homepage" />
       <Hero />
       <Services />
       <Jobs />

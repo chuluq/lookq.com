@@ -1,20 +1,20 @@
 import React from "react"
-import { FaFacebook, FaTwitter, FaGithub } from "react-icons/fa"
+import { FaInstagram, FaTwitter, FaGithub } from "react-icons/fa"
 
 const data = [
   {
     id: 1,
-    icon: <FaFacebook className="" />,
-    url: "https://facebook.com",
+    icon: <FaInstagram />,
+    url: "https://www.instagram.com/ilookq",
   },
   {
     id: 2,
-    icon: <FaTwitter className="" />,
-    url: "https://twitter.com",
+    icon: <FaTwitter />,
+    url: "https://twitter.com/choirulchuluq",
   },
   {
     id: 3,
-    icon: <FaGithub className="" />,
+    icon: <FaGithub />,
     url: "https://github.com/chuluq",
   },
 ]
@@ -27,6 +27,8 @@ const links = data.map(link => (
   </li>
 ))
 
-export default ({ styleClass }) => (
+const SocialLinks = ({ styleClass }) => (
   <ul className={`social-links ${styleClass ? styleClass : ""}`}>{links}</ul>
 )
+
+export default SocialLinks

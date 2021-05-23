@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
-import { FaCheckSquare } from "react-icons/fa"
 
 import Layout from "../components/Layout"
+import Seo from "../components/SEO"
 import Title from "../components/Title"
 
 const About = ({
@@ -13,10 +13,10 @@ const About = ({
 }) => {
   const { title, info, image, stack } = nodes[0]
   const srcImage = getImage(image.localFile)
-  console.log(nodes)
 
   return (
     <Layout>
+      <Seo title="About" description="about lookq" />
       <section className="about-page">
         <div className="section-center about-center">
           <GatsbyImage image={srcImage} alt={title} className="about-img" />
