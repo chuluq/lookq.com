@@ -190,7 +190,7 @@ p {
 /* social links */
 .social-links {
   margin-top: 2rem;
-  width: 15rem;
+  width: 9rem;
   display: flex;
   justify-content: space-between;
 }
@@ -674,8 +674,8 @@ Projects
   font-size: 1.5rem;
 }
 .project-desc {
-  word-spacing: 15px;
   color: var(--clr-grey-3);
+  text-align: left;
 }
 .project-stack {
   margin-bottom: 1rem;
@@ -782,6 +782,13 @@ Blog
 }
 .blog-card h4 {
   color: var(--clr-grey-1);
+}
+.blog-content p img {
+  width: 100%;
+  height: auto;
+}
+.blog-content ul {
+  margin-bottom: 1rem;
 }
 
 .blog-footer {

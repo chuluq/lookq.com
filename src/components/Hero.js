@@ -21,6 +21,7 @@ const Hero = () => {
         </article>
         <StaticImage
           src="../assets/hero-img.svg"
+          alt="hero-image"
           width={1019.48}
           height={436.68}
           className="hero-img"

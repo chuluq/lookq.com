@@ -1,7 +1,11 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "lookq-portfolio-site",
+  "author": {
+    "email": "choirulchuluq10@gmail.com",
+    "name": "chuluq"
+  },
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A portfolio site using gatsby",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -20,18 +24,17 @@
     "gatsby-plugin-sharp": "^3.3.0",
     "gatsby-plugin-sitemap": "^3.3.0",
     "gatsby-source-filesystem": "^3.3.0",
+    "gatsby-source-strapi": "^1.0.0",
     "gatsby-transformer-sharp": "^3.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "react-markdown": "^6.0.2"
   },
   "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
